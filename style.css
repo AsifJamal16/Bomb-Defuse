@@ -1,0 +1,74 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.puzzleSection {
+  height: 190px;
+  width: 400px;
+  margin: 60px auto;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.section {
+  height: 300px;
+  width: 1200px;
+  margin: 100px auto;
+  border: 1px solid gray;
+  border-radius: 12px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 40px;
+  color: red;
+}
+
+button {
+  margin-top: 40px;
+  height: 40px;
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.numbers {
+  display: flex;
+  height: 50px;
+  width: auto;
+  margin-top: 10px;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.numbers h3 {
+  font-size: 60px;
+}
+
+input {
+  height: 40px;
+  width: 120px;
+  margin-left: 140px;
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  font-size: 26px;
+  font-weight: bolder;
+  color: white;
+  padding-left: 10px;
+}
